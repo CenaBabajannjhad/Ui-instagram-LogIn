@@ -37,6 +37,12 @@ hr {
     list-style: none;
     text-decoration: none;
 }
+a{
+    cursor: pointer;
+}
+a:visited {
+    color: #008FFF;
+}
 /* body styles */
 body{
     width: 100vw;
@@ -150,6 +156,14 @@ body{
     padding-top: 35px;
     color: #008FFF;
 }
+.facebook-icon{
+    width: 20px;
+}
+.login-with-facebook-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* footer styles */
 #footer{
     height: 10%;
@@ -184,16 +198,16 @@ body{
 /* Responsive area */
 @media only screen and (max-width: 400px) {
     .form{
-        background: #ffffff;
-        height: 80%;
-        width: 70%;
+        background: #fff;
+        height: 55%;
+        width: 95%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
     } 
 
     .instagram-logo{
         width: 150px;
-        margin-top: 100px;
+        margin-top: 90px;
     }
 
     .input{
@@ -205,13 +219,22 @@ body{
         padding: 0px 15px;
         font-family: "roboto-light";
     }
+
+    #login-with-facebook{
+        font-family: "roboto-medium";
+        font-size: .9rem;
+        width: 100%;
+        text-align: center;
+        padding-top: 25px;
+        color: #008FFF;
+    }
 }
 
 @media only screen and (min-width: 400px) and  (max-width: 600px){
     .form{
         background: #fff;
-        height: 80%;
-        width: 85%;
+        height: 65%;
+        width: 90%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
     } 
@@ -220,30 +243,40 @@ body{
 
 @media only screen and (min-width: 600px) and (max-width : 992px) {
     .form{
-        background: #fff;
-        height: 80%;
-        width: 75%;
-        border-radius: 15px;
-        box-shadow: 0px 15px 25px #0000008b;
-    } 
-}
-
-@media only screen and (min-width: 992px) and (max-width : 1200px) {
-    .form{
-        background: #fff;
+        background: #ffffff;
         height: 80%;
         width: 60%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
     } 
+    .p-x{
+        padding: 0px 4vw;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width : 1200px) {
+    .form{
+        background: #ffffff;
+        height: 80%;
+        width: 45%;
+        border-radius: 15px;
+        box-shadow: 0px 15px 25px #0000008b;
+    } 
+    .p-x{
+        padding: 0px 3vw;
+    }
 }
 
 @media only screen and (min-width: 1200px) and (max-width : 2000px) {
     .form{
         background: #fff;
         height: 80%;
-        width: 60%;
+        width: 35%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
     } 
+
+    .p-x{
+        padding: 0px 3vw;
+    }
 }
