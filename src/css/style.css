@@ -201,7 +201,7 @@ body{
 /* Responsive area */
 @media only screen and (max-width: 400px) {
     .form{
-        background: #f20e0e;
+        background: hsl(0, 0%, 100%);
         height: 70%;
         width: 95%;
         border-radius: 15px;
@@ -214,7 +214,7 @@ body{
     }
 
     .input{
-        font-size: 0.6rem;
+        font-size: 0.7rem;
         width: 100%;
         height: 4vh;
         background: none;
