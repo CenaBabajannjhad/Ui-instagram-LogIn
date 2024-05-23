@@ -239,9 +239,7 @@ body{
     .p-x{
         padding: 0px 2vw;
     }
-    .p-x-m{
-        padding: 0px 6vw;
-    }
+
 
 }
 
@@ -264,7 +262,7 @@ body{
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
     } 
-    .p-x-m{
+    .p-x{
         padding: 0px 4vw;
     }
 }
@@ -277,7 +275,7 @@ body{
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
     } 
-    .p-x-m{
+    .p-x{
         padding: 0px 3vw;
     }
 }
@@ -291,7 +289,7 @@ body{
         box-shadow: 0px 15px 25px #0000008b;
     } 
 
-    .p-x-m{
+    .p-x{
         padding: 0px 3vw;
     }
 }
