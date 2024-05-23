@@ -185,7 +185,7 @@ body{
 @media only screen and (max-width: 400px) {
     .form{
         background: #ffffff;
-        height: 70%;
+        height: 80%;
         width: 70%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
@@ -221,7 +221,7 @@ body{
 @media only screen and (min-width: 600px) and (max-width : 992px) {
     .form{
         background: #fff;
-        height: 90%;
+        height: 80%;
         width: 75%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
@@ -231,7 +231,7 @@ body{
 @media only screen and (min-width: 992px) and (max-width : 1200px) {
     .form{
         background: #fff;
-        height: 90%;
+        height: 80%;
         width: 60%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
@@ -241,7 +241,7 @@ body{
 @media only screen and (min-width: 1200px) and (max-width : 2000px) {
     .form{
         background: #fff;
-        height: 90%;
+        height: 80%;
         width: 60%;
         border-radius: 15px;
         box-shadow: 0px 15px 25px #0000008b;
