@@ -201,7 +201,7 @@ body{
 /* Responsive area */
 @media only screen and (max-width: 400px) {
     .form{
-        background: #fff;
+        background: #f20e0e;
         height: 70%;
         width: 95%;
         border-radius: 15px;
