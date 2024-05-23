@@ -1,0 +1,18 @@
+{
+  "name": "instagramfishingfreelike",
+  "version": "1.0.0",
+  "description": "\"a log in get user and password instagram users\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "freeLikeInstagram(fishing)"
+  },
+  "keywords": [
+    "god"
+  ],
+  "author": "Cena babajannjhad",
+  "license": "ISC"
+}
